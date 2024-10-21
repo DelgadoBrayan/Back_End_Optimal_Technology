@@ -2,7 +2,7 @@
 FROM node:20
 
 # se establece el directorio de trabajo dentro del contenedor
-WORKDIR /app
+WORKDIR /app 
 
 # Copia el archivo package.json y package-lock.json
 COPY package*.json ./
