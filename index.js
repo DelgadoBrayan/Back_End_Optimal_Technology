@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import { config } from "dotenv";
 import routerProduct from "./src/routes/product.Routes.js";
-import connectDB from "./src/Config/Db.js";
+import connectDB from "./src/Config/connetionDB.js";
 config()
 const PORT = process.env.PORT || 3000;
 
